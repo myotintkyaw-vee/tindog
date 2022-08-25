@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-link {
+  font-weight: light;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  max-width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1.3rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.signup-btn {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.signup-btn:hover {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15% 5%;
+  color: #fff;
+  text-align: center;
+}
+
+#cta h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15% 5%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  font-size: 1.3rem;
+  color: #ef8172;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+/* Responsive */
+
+@media (max-width: 1028px) {
+  #title .row {
+    text-align: center;
+  }
+
+  .title-image {
+    display: none;
+    transform: rotate(0);
+  }
+}
